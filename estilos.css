@@ -1,0 +1,157 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 1.3em;
+	font-size: 1em;
+	background: url(img/fondo.jpg) top repeat-x;
+	/*background-size: cover;*/
+}
+
+.container {
+	width: 80%;
+	max-width: 1000px;
+	background: #fff;
+	margin: 20px auto;
+	border-radius: 2%;
+}
+
+header {
+	width: 100%;
+	float: left;
+}
+
+header h1 {
+	margin-left: 20px;
+	float: left;
+}
+
+header h2 {
+	float: right;
+	font-size: 1.3em;
+	margin-top: 110px;
+	margin-right: 50px;
+}
+
+
+nav {
+	width: 100%;
+	clear: both;
+	padding: 10px 0;
+	margin-bottom: 50px;
+
+}
+
+nav ul {
+	width: 100%;
+	list-style: none;
+	border-top: 3px solid #8cc7e8;
+}
+
+nav ul li {
+	text-align: center;
+	width: 25%;
+	float: left;
+	background:  #c1d0d9;	
+	border-right: 1px #fff solid;
+	box-sizing: border-box;
+}
+
+nav ul li.ultima{
+	border-right: none;
+}
+
+nav ul li a:link, nav ul li a:visited {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 10px 0;
+}
+
+nav ul li:hover, nav ul li.actual{
+	background:  #8cc7e8;
+}
+
+nav ul li ul {
+	width: 250px;
+	margin-top: 1px;
+	position: absolute;
+	background: #fff;
+	display: none;
+	border-top: none;
+}
+
+nav ul li ul li {
+	width: 100%;
+	border-bottom: 1px solid #fff;
+	background:  #dbe8ef;
+}
+
+nav ul li:hover > ul {
+	display: block;
+}
+
+aside {
+	width: 30%;
+	float: right;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+aside article {
+	width: 90%;
+	margin-bottom: 50px;
+	border-bottom: dotted 1px #5e5c5c;
+	padding-bottom: 20px;
+}
+
+aside article img {
+	width: 250px;
+}
+
+
+section {
+	padding: 20px;
+}
+
+section h1 {
+	font-size: 1.5em;
+	margin-bottom: 1em;
+}
+
+section p {
+	line-height: 1.5em;
+}
+
+.mapa {
+	border: 1px solid #6c6465;
+	width: 630px;
+	height: 350px;
+	-moz-box-shadow: 1px 2px 5px #000000;
+	-webkit-box-shadow: 1px 2px 5px #000000;
+	box-shadow: 1px 2px 5px #000000;
+}
+
+
+footer {
+	width: 100%;
+	clear: both;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+footer p {
+	font-size: 0.7em;
+	color: #645f60;
+}
+
+footer a:link, footer a:visited {
+	color: #645f60;	
+}
+
+footer a:hover {
+	text-decoration: none;
+}
